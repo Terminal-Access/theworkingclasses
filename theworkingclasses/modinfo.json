@@ -1,15 +1,23 @@
 {
-    "type": "code",
-    "modid": "theworkingclasses",
-    "name": "The Working Classes",
-    "authors": [
-        "Vivi_IX"
-    ],
-    "description": "Adds profession based classes to Vintage story. Pick a profession and work alongside your fellows, or take on the world alone in a new way",
-    "version": "1.0.3",
-    "dependencies": {
-        "game": "",
-        "traitacquirer": "0.9.6",
-        "em": "3.0.0"
-    }
+  "type": "content",
+  "modid": "theworkingclasseswspatch",
+  "name": "The Working Classes - Whetstone Patch",
+  "authors": [
+    "Vivi_IX",
+    "AzureTai"
+  ],
+  "contributors": [
+    "Sharidan"
+  ],
+  "description": "An independent compatibility and bug-fix fork of The Working Classes for Vintage Story 1.22.3, maintained by AzureTai. Fixes the whetstone item error that can cause client crashes when viewing or interacting with anvils.",
+  "version": "1.0.6",
+  "dependencies": {
+    "game": "1.22.3",
+    "traitacquirermoddedclasses": "0.9.17",
+    "em": "3.7.0"
+  },
+  "Side": "Universal",
+  "RequiredOnClient": true,
+  "RequiredOnServer": true
+
 }

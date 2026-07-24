@@ -1,6 +1,6 @@
 {
 	"code": "whetstone",
-	"class": "ItemIngot",
+	"class": "Item",
 	"maxstacksize": 16,
 	"durability": 200,
 	"behaviors": [

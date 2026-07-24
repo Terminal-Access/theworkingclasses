@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <OutputPath>bin\$(Configuration)\Mods\mod</OutputPath>
   </PropertyGroup>
@@ -57,6 +57,7 @@
   <Content Remove="assets\theworkingclasses\shapes\entity\blocks\**" />
   <EmbeddedResource Remove="assets\theworkingclasses\shapes\entity\blocks\**" />
   <None Remove="assets\theworkingclasses\shapes\entity\blocks\**" />
+  <Compile Remove="theworkingclassesModSystem.cs" />
   <Content Include="modinfo.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
   </Content>
@@ -87,6 +88,10 @@
   <Folder Include="assets\theworkingclasses\textures\block\soil\peatpile\" />
   <Folder Include="assets\theworkingclasses\textures\block\wood\planks\aged\" />
   <Folder Include="assets\theworkingclasses\textures\item\" />
+</ItemGroup>
+
+<ItemGroup>
+  <None Include="theworkingclassesModSystem.cs" />
 </ItemGroup>
 
 <ProjectExtensions><VisualStudio><UserProperties /></VisualStudio></ProjectExtensions>

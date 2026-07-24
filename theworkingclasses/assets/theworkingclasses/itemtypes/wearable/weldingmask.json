@@ -1,6 +1,5 @@
 {
 	"code": "clothes",
-	"class": "ItemWearable",
 	"variantgroups": [
 		{
 			"code": "category",
@@ -17,6 +16,9 @@
 		"*": { "base": "theworkingclasses:entity/humanoid/welding-mask" }
 	},
 	"storageFlags": 128,
+	"behaviors": [
+		{ "name": "Wearable" }
+	],
 	"attributes": {
 		"clothescategory": "face",
 		"wearableAttachment": true,

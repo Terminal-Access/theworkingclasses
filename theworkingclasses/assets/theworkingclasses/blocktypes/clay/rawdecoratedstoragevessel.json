@@ -25,7 +25,6 @@
             "states": [ "ashforest", "chthonic", "copper", "earthen", "rain", "cowrie", "rime", "oxblood", "loam", "undergrowth", "beehive", "harvest", "honeydew", "rutile", "seasalt", "springflowers", "volcanic" ]
         }
     ],
-
     "shapeByType": {
         "*-ashforest": {
             "base": "theworkingclasses:block/clay/storagevessel/storagevesselashforest"
@@ -81,30 +80,32 @@
         "*": {
             "base": "theworkingclasses:block/clay/storagevessel/storagevessel"
         }
-
     },
+    "texturesByType": {
 
-        "texturesByType": {
-            "*": {
-                "normal-ceramic": { "base": "game:block/clay/ceramic" },
-                "normal-top": { "base": "game:block/clay/vessel/top/{type}" },
-                "normal-sides": { "base": "theworkingclasses:block/clay/vessel/sides/{type}" },
-                "normal-inside": { "base": "game:block/clay/vessel/inside/{type}" }
-            }
+        "*": {
+            "normal-ceramic": { "base": "game:block/clay/ceramic" },
+            "normal-top": { "base": "game:block/clay/vessel/top/{type}" },
+            "normal-sides": { "base": "theworkingclasses:block/clay/vessel/sides/{type}" },
+            "normal-inside": { "base": "game:block/clay/vessel/inside/{type}" }
+        }
+    },
+    "attributes": {
+        "shape": {
+            "normal": "game:block/clay/storagevessel"
         },
-        "attributes": {
-
-            "shape": {
-                "normal": "game:block/clay/storagevessel"
-            },
-            "variantByGroup": "type",
-            "variantByGroupInventory": "type",
-            "openSound": "game:sounds/block/vesselopen",
-            "closeSound": "game:sounds/block/vesselclose"
-        },
-        "blockmaterial": "Ceramic",
-        "creativeinventory": {},
-        "creativeinventoryStacksByType": {
+        "variantByGroup": "type",    
+        "variantByGroupInventory": "type",    
+        "openSound": "game:sounds/block/vesselopen",    
+        "closeSound": "game:sounds/block/vesselclose"
+    
+    },    
+    "blockmaterial": "Ceramic",
+    "creativeinventory": {
+        "general": [ "*" ],
+        "decorative": [ "*" ]
+    },    
+    "creativeinventoryStacksByType": {
             "*": [
                 {
                     "tabs": [ "general", "decorative" ],
@@ -118,60 +119,61 @@
                 }
             ]
         },
-        "replaceable": 1000,
-        "resistance": 0.8,
-        "maxStackSize": 4,
-        "sideAo": { "all": false },
-        "lightAbsorption": 0,
-        "sounds": {
-            "walk": "game:walk/stone",
-            "break": "game:block/ceramicplace",
-            "hit": "game:block/ceramichit",
-            "place": "game:block/ceramicplace"
-        },
-        "sideopaque": {
-            "all": false
-        },
-        "sidesolid": {
-            "all": false
-        },
-        "collisionSelectionBox": {
-            "x1": 0.125,
-            "y1": 0,
-            "z1": 0.125,
-            "x2": 0.875,
-            "y2": 1,
-            "z2": 0.875
-        },
-        "heldTpIdleAnimation": "holdunderarm",
-        "combustiblePropsByType": {
-            "*": {
-                "meltingPoint": 600,
-                "meltingDuration": 45,
-                "smeltedRatio": 1,
-                "smeltingType": "fire",
-                "smeltedStack": {
-                    "type": "block",
-                    "code": "game:storagevessel-{type}",
-                    "attributes": { "type": "normal" }
-                },
-                "requiresContainer": false
-            }
-        },
-        "guiTransform": {
-            "scale": 1.25
-        },
-        "tpHandTransform": {
-            "translation": {
-                "x": -1,
-                "y": -0.5,
-                "z": -0.5
+    "replaceable": 1000,
+    "resistance": 0.8,
+    "maxStackSize": 4,
+    "sideAo": { "all": false },
+    "lightAbsorption": 0,
+    "sounds": {
+        "walk": "game:walk/stone",
+        "break": "game:block/ceramicplace",
+        "hit": "game:block/ceramichit",
+        "place": "game:block/ceramicplace"
+    },
+    "sideopaque": {
+        "all": false
+    },
+    "sidesolid": {
+        "all": false
+    },
+    "collisionSelectionBox": {
+        "x1": 0.125,
+        "y1": 0,
+        "z1": 0.125,
+        "x2": 0.875,
+        "y2": 1,
+        "z2": 0.875
+    },
+    "heldTpIdleAnimation": "holdunderarm",
+    "combustiblePropsByType": {
+        "*": {
+            "meltingPoint": 600,
+            "meltingDuration": 45,
+            "smeltedRatio": 1,
+            "smeltingType": "fire",
+            "smeltedStack": {
+                "type": "block",
+                "code": "game:storagevessel-{type}",
+                "attributes": { "type": "normal" }
             },
-            "rotation": {
-                "x": 25,
-                "y": -20,
-                "z": -99
-            },
-            "scale": 0.56
+            "requiresContainer": false
+
         }
+    },
+    "guiTransform": {
+        "scale": 1.25
+    },
+    "tpHandTransform": {
+        "translation": {
+            "x": -1,
+            "y": -0.5,
+            "z": -0.5
+        },
+        "rotation": {
+            "x": 25,
+            "y": -20,
+            "z": -99
+        },
+        "scale": 0.56
+    }
     }

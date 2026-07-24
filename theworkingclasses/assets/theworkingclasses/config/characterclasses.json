@@ -1,9 +1,5 @@
 [
     {
-        "file": "config/characterclasses.json",
-        "op": "add",
-        "path": "/-",
-        "value": {
             "code": "miner",
             "traits": [
                 "miner",
@@ -16,36 +12,31 @@
             "gear": [
                 {
                     "type": "item",
-                    "code": "clothes-upperbody-miner"
+                    "code": "game:clothes-upperbody-miner"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-shoulder-clockmaker-apron"
+                    "code": "game:clothes-shoulder-clockmaker-apron"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-nadiya-lowerbody-miner-clean"
+                    "code": "game:clothes-nadiya-lowerbody-miner-clean"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-nadiya-foot-miner"
+                    "code": "game:clothes-nadiya-foot-miner"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-face-hunter-mask"
+                    "code": "game:clothes-face-hunter-mask"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-nadiya-waist-miner"
+                    "code": "game:clothes-nadiya-waist-miner"
                 }
             ]
-        }
     },
     {
-        "file": "config/characterclasses.json",
-        "op": "add",
-        "path": "/-",
-        "value": {
             "code": "farmer",
             "traits": [
                 "farmer",
@@ -58,44 +49,39 @@
             "gear": [
                 {
                     "type": "item",
-                    "code": "clothes-head-straw-hat"
+                    "code": "game:clothes-head-straw-hat"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-nadiya-face-grain"
+                    "code": "game:clothes-nadiya-face-grain"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-upperbody-clockmaker-shirt"
+                    "code": "game:clothes-upperbody-clockmaker-shirt"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-shoulder-jord-robe"
+                    "code": "game:clothes-shoulder-jord-robe"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-nadiya-lowerbody-shepherd"
+                    "code": "game:clothes-nadiya-lowerbody-shepherd"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-foot-forlorn-shoes"
+                    "code": "game:clothes-foot-forlorn-shoes"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-nadiya-hand-blacksmith"
+                    "code": "game:clothes-nadiya-hand-blacksmith"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-nadiya-waist-shepherd"
+                    "code": "game:clothes-nadiya-waist-shepherd"
                 }
             ]
-        }
     },
     {
-        "file": "config/characterclasses.json",
-        "op": "add",
-        "path": "/-",
-        "value": {
             "code": "lumberjack",
             "traits": [
                 "lumberjack",
@@ -108,36 +94,31 @@
             "gear": [
                 {
                     "type": "item",
-                    "code": "theworkingclasses:clothes-upperbody-lumberjack-shirt"
+                    "code": "clothes-upperbody-lumberjack-shirt"
                 },
                 {
                     "type": "item",
-                    "code": "theworkingclasses:clothes-lowerbody-lumberjack-pants-fancy"
+                    "code": "clothes-lowerbody-lumberjack-pants-fancy"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-foot-metalcap-boots"
+                    "code": "game:clothes-foot-metalcap-boots"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-neck-acorn-amulet"
+                    "code": "game:clothes-neck-acorn-amulet"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-nadiya-arm-guard-bracers"
+                    "code": "game:clothes-nadiya-arm-guard-bracers"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-waist-peasant-strap"
+                    "code": "game:clothes-waist-peasant-strap"
                 }
             ]
-        }
     },
     {
-        "file": "config/characterclasses.json",
-        "op": "add",
-        "path": "/-",
-        "value": {
             "code": "blacksmith",
             "traits": [
                 "smith",
@@ -150,36 +131,31 @@
             "gear": [
                 {
                     "type": "item",
-                    "code": "clothes-shoulder-blacksmith-apron"
+                    "code": "game:clothes-shoulder-blacksmith-apron"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-upperbody-temptress-velvet-shirt"
+                    "code": "game:clothes-upperbody-temptress-velvet-shirt"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-lowerbody-blackguard-leggings"
+                    "code": "game:clothes-lowerbody-blackguard-leggings"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-nadiya-foot-blacksmith"
+                    "code": "game:clothes-nadiya-foot-blacksmith"
                 },
                 {
                     "type": "item",
-                    "code": "theworkingclasses:clothes-face-welding-mask"
+                    "code": "clothes-face-welding-mask"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-hand-heavy-leather-gloves"
+                    "code": "game:clothes-hand-heavy-leather-gloves"
                 }
             ]
-        }
     },
     {
-        "file": "config/characterclasses.json",
-        "op": "add",
-        "path": "/-",
-        "value": {
             "code": "cook",
             "traits": [
                 "knifeexpert",
@@ -192,36 +168,31 @@
             "gear": [
                 {
                     "type": "item",
-                    "code": "clothes-upperbody-linen-tunic"
+                    "code": "game:clothes-upperbody-linen-tunic"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-lowerbody-homespun-pants"
+                    "code": "game:clothes-lowerbody-homespun-pants"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-foot-soldier-boots"
+                    "code": "game:clothes-foot-soldier-boots"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-hand-commoner-gloves"
+                    "code": "game:clothes-hand-commoner-gloves"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-upperbodyover-surgeon"
+                    "code": "game:clothes-upperbodyover-surgeon"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-nadiya-waist-peasant1"
+                    "code": "game:clothes-nadiya-waist-peasant1"
                 }
             ]
-        }
     },
     {
-        "file": "config/characterclasses.json",
-        "op": "add",
-        "path": "/-",
-        "value": {
             "code": "alchemist",
             "traits": [
                 "forager",
@@ -234,44 +205,39 @@
             "gear": [
                 {
                     "type": "item",
-                    "code": "clothes-head-alchemist"
+                    "code": "game:clothes-head-alchemist"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-face-tailor-mask"
+                    "code": "game:clothes-face-tailor-mask"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-shoulder-alchemist"
+                    "code": "game:clothes-shoulder-alchemist"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-upperbody-azure-embroidered-shirt"
+                    "code": "game:clothes-upperbody-azure-embroidered-shirt"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-hand-malefactor-gloves"
+                    "code": "game:clothes-hand-malefactor-gloves"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-nadiya-waist-alchemist"
+                    "code": "game:clothes-nadiya-waist-alchemist"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-lowerbody-commoner-trousers"
+                    "code": "game:clothes-lowerbody-commoner-trousers"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-foot-blackguard-shoes"
+                    "code": "game:clothes-foot-blackguard-shoes"
                 }
             ]
-        }
     },
     {
-        "file": "config/characterclasses.json",
-        "op": "add",
-        "path": "/-",
-        "value": {
             "code": "squire",
             "traits": [
                 "fleetfooted",
@@ -284,40 +250,35 @@
             "gear": [
                 {
                     "type": "item",
-                    "code": "clothes-arm-leather-bracers"
+                    "code": "game:clothes-arm-leather-bracers"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-hand-forlorn-bracer"
+                    "code": "game:clothes-hand-forlorn-bracer"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-shoulder-squire-tunic"
+                    "code": "game:clothes-shoulder-squire-tunic"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-upperbody-marketeer"
+                    "code": "game:clothes-upperbody-marketeer"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-waist-squire-belt"
+                    "code": "game:clothes-waist-squire-belt"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-lowerbody-aristocrat-leggings"
+                    "code": "game:clothes-lowerbody-aristocrat-leggings"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-foot-worn-leather-boots"
+                    "code": "game:clothes-foot-worn-leather-boots"
                 }
             ]
-        }
     },
     {
-        "file": "config/characterclasses.json",
-        "op": "add",
-        "path": "/-",
-        "value": {
             "code": "potter",
             "traits": [
                 "potter",
@@ -330,36 +291,31 @@
             "gear": [
                 {
                     "type": "item",
-                    "code": "clothes-shoulder-woolen-scarf"
+                    "code": "game:clothes-shoulder-woolen-scarf"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-upperbody-hunters-green"
+                    "code": "game:clothes-upperbody-hunters-green"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-nadiya-upperbodyover-coat-short"
+                    "code": "game:clothes-nadiya-upperbodyover-coat-short"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-nadiya-waist-peasant1"
+                    "code": "game:clothes-nadiya-waist-peasant1"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-lowerbody-pastoral-pants"
+                    "code": "game:clothes-lowerbody-pastoral-pants"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-nadiya-foot-peasantbrown"
+                    "code": "game:clothes-nadiya-foot-peasantbrown"
                 }
             ]
-        }
     },
     {
-        "file": "config/characterclasses.json",
-        "op": "add",
-        "path": "/-",
-        "value": {
             "code": "carpenter",
             "traits": [
                 "carpenter",
@@ -372,40 +328,35 @@
             "gear": [
                 {
                     "type": "item",
-                    "code": "clothes-face-leather-reinforced-mask"
+                    "code": "game:clothes-face-leather-reinforced-mask"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-hand-commoner-gloves"
+                    "code": "game:clothes-hand-commoner-gloves"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-nadiya-upperbodyover-coat-short"
+                    "code": "game:clothes-nadiya-upperbodyover-coat-short"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-upperbody-woolen-shirt"
+                    "code": "game:clothes-upperbody-woolen-shirt"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-waist-sturdy-belt"
+                    "code": "game:clothes-waist-sturdy-belt"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-lowerbody-pastoral-pants"
+                    "code": "game:clothes-lowerbody-pastoral-pants"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-foot-forlorn-shoes"
+                    "code": "game:clothes-foot-forlorn-shoes"
                 }
             ]
-        }
     },
     {
-        "file": "config/characterclasses.json",
-        "op": "add",
-        "path": "/-",
-        "value": {
             "code": "healer",
             "traits": [
                 "healthy",
@@ -418,34 +369,33 @@
             "gear": [
                 {
                     "type": "item",
-                    "code": "clothes-face-hunter-mask"
+                    "code": "game:clothes-face-hunter-mask"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-nadiya-arm-barber-pouch"
+                    "code": "game:clothes-nadiya-arm-barber-pouch"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-shoulder-hooded-cape"
+                    "code": "game:clothes-shoulder-hooded-cape"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-nadiya-upperbody-beekeeper"
+                    "code": "game:clothes-nadiya-upperbody-beekeeper"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-waist-alchemist"
+                    "code": "game:clothes-waist-alchemist"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-lowerbody-marketeer"
+                    "code": "game:clothes-lowerbody-marketeer"
                 },
                 {
                     "type": "item",
-                    "code": "clothes-nadiya-foot-guard"
+                    "code": "game:clothes-nadiya-foot-guard"
                 }
             ]
-        }
     }
-                
+
 ]

@@ -53,7 +53,7 @@
 			},
 			"B": {
 				"type": "item",
-				"code": "theworkingclasses:individuallamellar-brass",
+				"code": "theworkingclasses:individuallamellar-tinbronze",
 				"quantity": 2
 			},
 			"Q": {
@@ -89,7 +89,7 @@
 			},
 			"B": {
 				"type": "item",
-				"code": "theworkingclasses:individuallamellar-brass",
+				"code": "theworkingclasses:individuallamellar-tinbronze",
 				"quantity": 2
 			},
 			"Q": {
@@ -120,26 +120,26 @@
 				"type": "item",
 				"code": "theworkingclasses:individuallamellar-*",
 				"allowedVariants": [
-					"bismuth",
+					//"bismuth",
 					"bismuthbronze",
 					"blackbronze",
-					"brass",
-					"chromium",
+					//"brass",
+					//"chromium",
 					"copper",
-					"gold",
+					//"gold",
 					"iron",
 					"meteoriciron",
-					"lead",
-					"molybdochalkos",
-					"platinum",
-					"silver",
-					"stainlesssteel",
+					//"lead",
+					//"molybdochalkos",
+					//"platinum",
+					//"silver",
+					//"stainlesssteel",
 					"steel",
-					"tin",
-					"tinbronze",
-					"titanium",
-					"uranium",
-					"zinc"
+					//"tin",
+					"tinbronze"
+					//"titanium",
+					//"uranium",
+					//"zinc"
 				],
 				"name": "metal",
 				"quantity": 9
@@ -161,26 +161,26 @@
 				"type": "item",
 				"code": "game:metallamellae-*",
 				"allowedVariants": [
-					"bismuth",
+					//"bismuth",
 					"bismuthbronze",
 					"blackbronze",
-					"brass",
-					"chromium",
+					//"brass",
+					//"chromium",
 					"copper",
-					"gold",
+					//"gold",
 					"iron",
 					"meteoriciron",
-					"lead",
-					"molybdochalkos",
-					"platinum",
-					"silver",
-					"stainlesssteel",
+					//"lead",
+					//"molybdochalkos",
+					//"platinum",
+					//"silver",
+					//"stainlesssteel",
 					"steel",
-					"tin",
-					"tinbronze",
-					"titanium",
-					"uranium",
-					"zinc"
+					//"tin",
+					"tinbronze"
+					//"titanium",
+					//"uranium",
+					//"zinc"
 				],
 				"name": "metal"
 			}
@@ -207,26 +207,26 @@
 				"type": "item",
 				"code": "theworkingclasses:individuallamellar-*",
 				"allowedVariants": [
-					"bismuth",
+					//"bismuth",
 					"bismuthbronze",
 					"blackbronze",
-					"brass",
-					"chromium",
+					//"brass",
+					//"chromium",
 					"copper",
-					"gold",
+					//"gold",
 					"iron",
 					"meteoriciron",
-					"lead",
-					"molybdochalkos",
-					"platinum",
-					"silver",
-					"stainlesssteel",
+					//"lead",
+					//"molybdochalkos",
+					//"platinum",
+					//"silver",
+					//"stainlesssteel",
 					"steel",
-					"tin",
-					"tinbronze",
-					"titanium",
-					"uranium",
-					"zinc"
+					//"tin",
+					"tinbronze"
+					//"titanium",
+					//"uranium",
+					//"zinc"
 				],
 				"name": "metal"
 			}

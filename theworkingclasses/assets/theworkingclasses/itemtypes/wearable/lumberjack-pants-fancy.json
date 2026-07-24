@@ -1,6 +1,5 @@
 {
     "code": "clothes",
-    "class": "ItemWearable",
     "variantgroups": [
         {
             "code": "category",
@@ -18,6 +17,9 @@
         "*": { "base": "game:entity/humanoid/seraph/clothing/lowerbody/pants7" }
     },
     "storageFlags": 128,
+    "behaviors": [
+        { "name": "Wearable" }
+    ],
     "attributes": {
         "clothescategory": "lowerbody",
         "wearableAttachment": true

@@ -3,6 +3,6 @@
     "op": "replace",
     "path": "/attributes/handbook/exclude",
     "value": false,
-    "file": "blocktypes/cloth/wallpaper.json"
+    "file": "blocktypes/overlay/paper.json"
   }
 ]

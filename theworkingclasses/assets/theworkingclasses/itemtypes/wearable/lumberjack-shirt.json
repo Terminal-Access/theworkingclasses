@@ -1,112 +1,88 @@
 {
-	"code": "clothes",
-	"class": "ItemWearable",
-	"variantgroups": [
-		{
-			"code": "category",
-			"states": [
-				"upperbody"
-			]
-		},
-		{
-			"code": "upperbody",
-			"combine": "SelectiveMultiply",
-			"onVariant": "category",
-			"states": [
-				"lumberjack-shirt"
-			]
-		}
-	],
-	"shape": {
-		"base": "game:entity/humanoid/seraph"
-	},
-	"storageFlags": 128,
-	"attributesByType": {
-		"*": {
-			"clothescategory": "upperbody",
-			"warmth": 2
-		}
-	},
-	"textures": {
-		"seraph": {
-			"base": "clothing/lumberjack-shirt"
-		}
-	},
-	"creativeinventory": {
-		"general": [
-			"*"
-		],
-		"items": [
-			"*"
-		],
-		"clothing": [
-			"*"
-		]
-	},
-	"renderAlphaTest": 0.25,
-	"fpHandTransform": {
-		"translation": {
-			"x": 0.05,
-			"y": -0.6,
-			"z": 0.3
-		},
-		"rotation": {
-			"x": 180,
-			"y": 150,
-			"z": 180
-		},
-		"scale": 2
-	},
-	"tpHandTransform": {
-		"translation": {
-			"x": -0.3,
-			"y": -0.9,
-			"z": -0.7
-		},
-		"rotation": {
-			"x": -71,
-			"y": 180,
-			"z": 83
-		},
-		"scale": 0.55
-	},
-	"guiTransformByType": {
-		"*": {
-			"rotate": false,
-			"translation": {
-				"x": 0,
-				"y": 0,
-				"z": 0
-			},
-			"rotation": {
-				"x": -178,
-				"y": -65,
-				"z": 10
-			},
-			"origin": {
-				"x": 0.9,
-				"y": 1.02,
-				"z": 0.7
-			},
-			"scale": 1.5
-		}
-	},
-	"groundTransform": {
-		"translation": {
-			"x": 0.05,
-			"y": 0.05,
-			"z": 0
-		},
-		"rotation": {
-			"x": 0,
-			"y": 0,
-			"z": -87
-		},
-		"origin": {
-			"x": 0.5,
-			"y": 0.5,
-			"z": 0.5299
-		},
-		"scale": 2.19
-	}
+    "code": "clothes-upperbody-lumberjack-shirt",
+    "class": "Item",
+    "storageFlags": 128,
+    "behaviors": [
+        { "name": "Wearable" }
+    ],
+    "attributes": {
+        "clothescategory": "upperbody",
+        "wearableAttachment": true,
+        "disableElementsByType": {
+            "*": [ "glovefrill-l", "glovefrill-r" ]
+        },
+        "isFoldable": true,
+        "displayable": {
+            "shelf": {
+                "behavior": "Stacking",
+                "category": "wearable-tops",
+                "shape": { "base": "game:entity/humanoid/seraph/clothing/upperbody-folded" },
+                "size": {
+                    "width": 11,
+                    "height": 1.5,
+                    "length": 7
+                }
+            }
+        },
+        "warmth": 2
+    },
+    "shape": {
+        "base": "game:entity/humanoid/seraph/clothing/upperbody/longsleeve",
+        "overlays": [ { "base": "game:entity/humanoid/seraph/clothing/upperbody/collar-longsleeve-full" } ]
+    },
+    "textures": {
+        "seraph": { "base": "game:block/transparent" },
+        "shirt": { "base": "theworkingclasses:clothing/lumberjack-shirt" },
+        "uover": { "base": "theworkingclasses:clothing/lumberjack-shirt" }
+    },
+    "creativeinventory": {
+        "general": [ "*" ],
+        "items": [ "*" ],
+        "clothing": [ "*" ]
+    },
+    "renderAlphaTest": 0.25,
+    "tpHandTransform": {
+        "translation": {
+            "x": -0.3,
+            "y": -0.9,
+            "z": -0.7
+        },
+        "rotation": {
+            "x": -71,
+            "y": 180,
+            "z": 83
+        },
+        "scale": 0.55
+    },
+    "guiTransform": {
+        "rotation": {
+            "x": -178,
+            "y": -65,
+            "z": 10
+        },
+        "origin": {
+            "x": 0.43,
+            "y": 1.1,
+            "z": 0.5
+        },
+        "scale": 1.69
+    },
+    "groundTransform": {
+        "translation": {
+            "x": 0.05,
+            "y": 0.05,
+            "z": 0
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": -87
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5299
+        },
+        "scale": 4
+    }
 }

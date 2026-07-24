@@ -12,17 +12,17 @@ namespace theworkingclasses
         // Useful for registering block/entity classes on both sides
         public override void Start(ICoreAPI api)
         {
-            api.Logger.Notification("Hello from template mod: " + api.Side);
+            api.Logger.Notification("Hello from The Working Classes mod: " + api.Side);
         }
 
         public override void StartServerSide(ICoreServerAPI api)
         {
-            api.Logger.Notification("Hello from template mod server side: " + Lang.Get("theworkingclasses:hello"));
+            api.Logger.Notification("Hello from The Working Classes server side: " + Lang.Get("theworkingclasses:hello"));
         }
 
         public override void StartClientSide(ICoreClientAPI api)
         {
-            api.Logger.Notification("Hello from template mod client side: " + Lang.Get("theworkingclasses:hello"));
+            api.Logger.Notification("Hello from The Working Classes mod client side: " + Lang.Get("theworkingclasses:hello"));
         }
 
     }
