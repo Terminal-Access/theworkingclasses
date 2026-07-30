@@ -10,7 +10,7 @@
     "Sharidan"
   ],
   "description": "An independent compatibility and bug-fix fork of The Working Classes for Vintage Story 1.22.3, maintained by AzureTai. Fixes the whetstone item error that can cause client crashes when viewing or interacting with anvils.",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "dependencies": {
     "game": "1.22.3",
     "traitacquirermoddedclasses": "0.9.17",

@@ -1,6 +1,6 @@
 [
   {
-    "ingredientPattern": "H,P",
+    "ingredientPattern": "P,H",
     "requiresTrait": "prospector",
     "ingredients": {
       "P": {
